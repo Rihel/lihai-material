@@ -1,0 +1,17 @@
+{
+    "name": "lihai-material",
+    "version": "1.0.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Rihel/lihai-material.git"
+    },
+    "license": "ISC",
+    "author": "",
+    "main": "index.js",
+    "scripts": {
+        "check": "dpsl-cli check",
+        "lib": "vue build --target lib --name my-material --dest dist packages/index.js "
+    },
+    "devDependencies": {}
+}

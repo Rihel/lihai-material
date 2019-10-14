@@ -1,0 +1,20 @@
+{
+    "name": "lihai-material",
+    "title": "李海的物料库",
+    "description": "",
+    "repository": {
+        "url": "https://github.com/Rihel/lihai-material.git",
+        "private": 1,
+        "auth": {
+            "username": "Rihel",
+            "password": "Dqshanshan0327"
+        }
+    },
+    "map": {
+        "components": [],
+        "blocks": [],
+        "pages": [],
+        "templates": []
+    },
+    "materialId": 156
+}
