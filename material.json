@@ -1,20 +1,37 @@
 {
-    "name": "lihai-material",
-    "title": "李海的物料库",
-    "description": "",
-    "repository": {
-        "url": "https://github.com/Rihel/lihai-material.git",
-        "private": 1,
-        "auth": {
-            "username": "Rihel",
-            "password": "Dqshanshan0327"
-        }
-    },
-    "map": {
-        "components": [],
-        "blocks": [],
-        "pages": [],
-        "templates": []
-    },
-    "materialId": 156
+	"name": "lihai-material",
+	"title": "李海的物料库",
+	"description": "",
+	"repository": {
+		"url": "https://github.com/Rihel/lihai-material.git",
+		"private": 1,
+		"auth": {
+			"username": "Rihel",
+			"password": "Dqshanshan0327"
+		}
+	},
+	"map": {
+		"components": [
+			{
+				"name": "json-to-code",
+				"version": "1.0.0",
+				"title": "json转代码",
+				"description": "哔哩哔哩",
+				"type": "component",
+				"platform": [
+					"PC"
+				],
+				"homePage": "",
+				"category": "表单",
+				"screenshot": "/screenshots/1858b2a06fc437b66a7d7d628182b1e1.png",
+				"path": "components/JsonToCode",
+				"origin": "https://github.com/Rihel/lihai-material.git",
+				"hash": "1858b2a06fc437b66a7d7d628182b1e1"
+			}
+		],
+		"blocks": [],
+		"pages": [],
+		"templates": []
+	},
+	"materialId": 156
 }
