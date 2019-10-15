@@ -1,0 +1,15 @@
+{
+  "type": 3,
+  "props": {
+    "msg": {
+      "dataType": 1,
+      "default": "hello-world",
+      "label": "消息"
+    }
+  },
+  "event": {
+    "hello-world": {
+      "name": "演示事件"
+    }
+  }
+}

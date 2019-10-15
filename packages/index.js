@@ -5,8 +5,12 @@
  *
  *
  */
+import JsonToCodeConfig from '../components/JsonToCode/dpsl.json'
+const JsonToCode = () => import('../components/JsonToCode/src/dpsl.js')
+JsonToCode.$dpslConfig = JsonToCodeConfig
 const components = [
   // 将引入的Component放入这里即可
+  JsonToCode
 ]
 
 // 添加install方法
@@ -28,6 +32,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 export default {
   install,
   componentProfileList: components.map(item => item.name),
-  ...components
+  JsonToCode
 }
-export {}
+export { JsonToCode }

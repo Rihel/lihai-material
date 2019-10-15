@@ -13,5 +13,8 @@
         "check": "dpsl-cli check",
         "lib": "vue build --target lib --name my-material --dest dist packages/index.js "
     },
-    "devDependencies": {}
+    "devDependencies": {},
+    "dependencies": {
+        "json-loader": "^0.5.7"
+    }
 }

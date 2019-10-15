@@ -1,0 +1,16 @@
+{
+    "name": "json-to-code",
+    "version": "1.0.0",
+    "title": "json转代码",
+    "description": "哔哩哔哩",
+    "type": "component",
+    "platform": [
+        "PC"
+    ],
+    "homePage": "",
+    "category": "表单",
+    "screenshot": "/screenshots/1858b2a06fc437b66a7d7d628182b1e1.png",
+    "path": "components/JsonToCode",
+    "origin": "https://github.com/Rihel/lihai-material.git",
+    "hash": "1858b2a06fc437b66a7d7d628182b1e1"
+}
